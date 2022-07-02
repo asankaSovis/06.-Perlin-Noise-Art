@@ -1,12 +1,11 @@
 float sampleDistance = 0.02; // Distance between each sampling
-int[] hues = {51, 102, 153, 204, 255}; // Separating the hue into 5 steps
-// (Can change these values to anything between 0 and 255)
+// Defining a colour palette
+color[] palette = {#10454F, #506266, #818274, #A3AB78, #BDE038};
+// Here we define our own custom palette
 
 void setup() {
   // Setup the width and height of the canvase
-  // We also change the colour mode to HSB
   size(600, 600);
-  colorMode(HSB);
 }
 
 void draw() {
@@ -19,16 +18,16 @@ void draw() {
   
   // For the length and width we sample a noise value from that
   // noise space at a distance defined by sampleDistance
-  // This sampled value is mapped between 0 and size of hues array
+  // This sampled value is mapped between 0 and size of palette array
   // and is assigned to the hueID variable
-  // This variable is used to get a hue value from hues array and
+  // This variable is used to get a colour from thepalette array and
   // set it as the colout of the fill
   for(int i = 0; i < width; i++) {
     for(int j = 0; j < height; j++) {
       float noiseSample = noise(i * sampleDistance, j * sampleDistance);
-      int hueID = (int)map(noiseSample, 0, 1, 0, hues.length);
-      
-      fill(hues[hueID], 250, 250);
+      int colourID = (int)map(noiseSample, 0, 1, 0, palette.length);
+
+      fill(palette[colourID]);
       circle(i, j, 1);
     }
   }
