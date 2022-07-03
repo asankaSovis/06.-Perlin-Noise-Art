@@ -1,7 +1,7 @@
 # 06. Perlin Noise Art 🎛️
 ## Drawing Art from Noise
 
-[Perlin Noise](https://en.wikipedia.org/wiki/Perlin_noise) is a form of gradient noise used extensively in visual applications. Developed by Ken Perlin in 1983, the Perlin Noise algorithm creates randomness with a structure. Perlin Noise was initially used in the 1982 movie *'Tron'* to generate natural appearing textures on computer-generated surfaces in the animation sequences. In modern days, it is used from simple art generation to terrain generation in video games. In this article, we will try to generate art using Perlin Noise.
+[Perlin Noise](https://en.wikipedia.org/wiki/Perlin_noise) is a form of gradient noise used extensively in visual applications. Developed by Ken Perlin in 1983, the Perlin Noise algorithm creates randomness with a structure. Perlin Noise was initially used in the 1982 movie *'Tron'* to generate natural appearing textures on computer-generated surfaces in the animation sequences. In modern days, it is used from simple art generation to terrain generation in video games.
 
 ![Perlin Noise Art](https://github.com/asankaSovis/06.-Perlin-Noise-Art/blob/5337e6c58c12f4147efd60a2f5a6919c9b36e6a6/Sample%20Output/Perlin%20Noise%20Art.gif)
 
