@@ -5,7 +5,7 @@
 
 ![Perlin Noise Art](https://github.com/asankaSovis/06.-Perlin-Noise-Art/blob/5337e6c58c12f4147efd60a2f5a6919c9b36e6a6/Sample%20Output/Perlin%20Noise%20Art.gif)
 
-Check the [Blog Post](https://asanka.hashnode.dev/05-mondrian-tiles-drawing-with-code)  that this repo is connected to.
+Check the [Blog Post](https://asanka.hashnode.dev/06-perlin-noise-art-art-from-noise)  that this repo is connected to.
 
 ---
 
