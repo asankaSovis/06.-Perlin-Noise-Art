@@ -6,8 +6,8 @@ creates randomness with a structure. In modern days, it is used from
 simple art generation to terrain generation in video games. In this
 article, we will try to generate art using Perlin Noise.
 Check out my blog post:
-        https://asanka.hashnode.dev/03-flocking-simulation-making-a-flock-of-boids
-        https://asanka-sovis.blogspot.com/2022/05/03-flocking-simulation-making-flock-of.html
+        https://asanka.hashnode.dev/06-perlin-noise-art-art-from-noise
+        https://asanka-sovis.blogspot.com/2022/07/06-perlin-noise-art-art-from-noise.html
 Coded by Asanka Akash Sovis
 
 -----------------------------------------------------------------------------*/
@@ -65,7 +65,7 @@ void draw() {
   textSize(20);
   text("BY ASANKA SOVIS", width / 2, 230);
   
-  saveFrame("Output\\Perlin Noise-" + str(frameCount) + ".png"); // Saves the current frame. Comment if you don't need
+  //saveFrame("Output\\Perlin Noise-" + str(frameCount) + ".png"); // Saves the current frame. Comment if you don't need
   //noLoop();
 }
 
